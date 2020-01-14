@@ -1,4 +1,4 @@
-
+import isYes from './isYes.js'
 //elements from HTML needed to serve as constants 
 const quizButton = document.getElementById('quiz-button');
 const total = document.getElementById('points');
@@ -23,7 +23,7 @@ if (isYes (answer1)) count += 1;
 if (!isYes (answer2)) count += 1; 
 if (isYes (answer3)) count += 1;
 
-total.textCOntent= '${name}, you got ${count} correct';
+total.textContent= `${name}, you got ${count} correct`;
 })
 
 //
