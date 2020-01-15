@@ -1,0 +1,19 @@
+
+
+header {
+    text-align: center;
+    font-style: oblique;
+}
+
+p {
+    font: outline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 3opx;
+    border: 4px coral dotted;
+    border-radius: 7px;
+
+}
+}
